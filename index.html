@@ -6,6 +6,10 @@
 
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/f356f0e3d9.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Header for nav & header banner -->
@@ -24,20 +28,94 @@
       </nav>
 
       <!-- Header banner part -->
-      <div class="max-w-screen-lg p-2 my-0 mx-auto flex items-center justify-between">
-        <div>
-          <h2 class="text-[#FABE4C] text-6xl font-medium">Be the Penguins <span class="text-[#363958]">of Winter</span></h2>
-          <p class="leading-6 my-5 text-gray-900 text-xl">
+      <div
+        class="max-w-screen-lg p-2 sm:py-5 my-0 mx-auto block items-center sm:flex justify-between"
+      >
+        <div class="sm:w-1/2">
+          <h2 class="text-[#FABE4C] text-6xl font-medium">
+            Be the Penguins <span class="text-[#363958]">of Winter</span>
+          </h2>
+          <p class="leading-6 my-5 text-gray-900 text-base">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
-          <button class="py-2.5 px-5 bg-lime-200">Buy Now</button>
+          <button
+            class="py-2.5 px-5 bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white rounded-lg"
+          >
+            <i class="fa-solid fa-cart-shopping"></i> BUY NOW
+          </button>
         </div>
-        <img src="images/model.png" alt="">
+        <img src="images/model.png" alt="" />
       </div>
     </header>
 
     <!-- main part for main contents -->
-    <main id="main"></main>
+    <main class="max-w-screen-lg mx-auto mt-10 mb-20">
+      <!-- Women Jacket section -->
+      <section>
+        <h3 class="text-3xl text-[#363958] font-bold">WOMAN JACKET</h3>
+        
+        <div class="flex items-center gap-8 my-5">
+
+          <div class="bg-white rounded-2xl drop-shadow-md">
+            <div class="p-5">
+              <img class="p-5 bg-[#F1F1F1] rounded-2xl" src="images/jacket-1.png" alt="" />
+              <h4 class="text-2xl font-bold text-[#363958] mt-3 mb-4">Yellow Coat Jacket</h4>
+              <p class="text-[#3E3E3E] mb-4 leading-7">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="flex items-center justify-between">
+                <h3 class="font-black text-3xl text-[#FABE4C]">$234</h3>
+                <button
+                  class="py-2.5 px-5 bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white rounded-lg"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl drop-shadow-md">
+            <div class="p-5">
+              <img class="p-5 bg-[#F1F1F1] rounded-2xl" src="images/jacket-2.png" alt="" />
+              <h4 class="text-2xl font-bold text-[#363958] mt-3 mb-4">Ladies Jacket </h4>
+              <p class="text-[#3E3E3E] mb-4 leading-7">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="flex items-center justify-between">
+                <h3 class="font-black text-3xl text-[#FABE4C]">$234</h3>
+                <button
+                  class="py-2.5 px-5 bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white rounded-lg"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl drop-shadow-md">
+            <div class="p-5">
+              <img class="p-5 bg-[#F1F1F1] rounded-2xl" src="images/jacket-3.png" alt="" />
+              <h4 class="text-2xl font-bold text-[#363958] mt-3 mb-4">Woman Leather Jacket </h4>
+              <p class="text-[#3E3E3E] mb-4 leading-7">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="flex items-center justify-between">
+                <h3 class="font-black text-3xl text-[#FABE4C]">$234</h3>
+                <button
+                  class="py-2.5 px-5 bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white rounded-lg"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i> BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
   </body>
 </html>
